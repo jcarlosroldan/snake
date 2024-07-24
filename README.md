@@ -2,7 +2,7 @@
 
 This simple repo trains a snake game using a deep reinforcement learning. All other repos I saw were either using feature engineering (i.e. passing variables such as distance to the food or whether it was to the left or to the right), we not successful on larger boards, and most were very complicated.
 
-# How does it work
+## How does it work
 
 When you run the `run.py` file, it will:
 
@@ -13,7 +13,7 @@ When you run the `run.py` file, it will:
 
 Everything is defined at using pytorch with no other dependencies.
 
-# What's it useful for
+## What's it useful for
 
 Some ideas of things you can do with this repo:
 * Use it as a starting point to learn about reinforcement learning.
