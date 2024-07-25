@@ -41,7 +41,7 @@ class SnakeEnv:
 		else:
 			self.body.appendleft(new_head)
 			if new_head == self.food:
-				if len(self.body) == self.board_size * self.board_size:
+				if len(self.body) == self.empty_size**2:
 					reward, done = SnakeEnv.R_WIN, True
 				else:
 					reward, done = SnakeEnv.R_FOOD, False
